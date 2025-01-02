@@ -1,0 +1,31 @@
+#aside-background {
+  background-image: url(../assets/images/Background.png);
+  background-size: auto 728px;
+  background-repeat: no-repeat;
+
+  height: 728px;
+  padding-top: 2rem;
+  padding-inline: 2rem;
+}
+
+aside {
+  padding-inline: 1.25rem;
+
+  img {
+    width: 2.86rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    color: var(--pink);
+    font: var(--logo);
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    color: var(--text-heading);
+    font: var(--body-md);
+    font-weight: lighter;
+  }
+}

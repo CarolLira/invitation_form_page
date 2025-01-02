@@ -9,14 +9,14 @@
   --baloo-2: "Baloo 2", serif;
   --open-sans: "Open Sans", serif;
 
-  --logo: normal 2.5rem/auto var(--leckerli-one);
+  --logo: normal 2.5rem var(--leckerli-one);
   
-  --heading-md: bold 1.75rem/auto var(--baloo-2);
-  --heading-sm: bold 1.125rem/auto var(--baloo-2);
+  --heading-md: bold 1.75rem var(--baloo-2);
+  --heading-sm: bold 1.125rem var(--baloo-2);
 
-  --body-md: normal 1rem/auto var(--open-sans);
-  --body-sm: normal 0.875rem/auto var(--open-sans);
-  --body-xs: normal 0.75rem/auto var(--open-sans);
+  --body-md: normal 1rem var(--open-sans);
+  --body-sm: normal 0.875rem var(--open-sans);
+  --body-xs: normal 0.75rem var(--open-sans);
 
   --text-body: #C8CDD0;
   --text-heading: #F9F9F9;
@@ -45,4 +45,8 @@
   --brand-light: #59B2FF;
   --brand-mid: #3487CF;
   --brand-dark: #1D6FB6;
+}
+
+body {
+  background-color: var(--shape-background);
 }
