@@ -5,12 +5,12 @@
 }
 
 :root {
-  --leckerli-one :"Leckerli One", serif;
+  --leckerli-one: "Leckerli One", serif;
   --baloo-2: "Baloo 2", serif;
   --open-sans: "Open Sans", serif;
 
   --logo: normal 2.5rem var(--leckerli-one);
-  
+
   --heading-md: bold 1.75rem var(--baloo-2);
   --heading-sm: bold 1.125rem var(--baloo-2);
 
@@ -49,4 +49,43 @@
 
 body {
   background-color: var(--shape-background);
+}
+
+h1 {
+  color: var(--pink);
+  font: var(--logo);
+}
+
+h2 {
+  font: var(--heading-md);
+}
+
+legend {
+  font: var(--heading-sm);
+}
+
+h2,
+h3,
+legend {
+  color: var(--text-heading);
+}
+
+label {
+  color: var(--text-body);
+}
+
+input {
+  color: var(--input-placeholder);
+}
+
+.body-md {
+  font: var(--body-md);
+}
+
+.body-sm {
+  font: var(--body-sm);
+}
+
+.body-xs {
+  font: var(--body-xs);
 }

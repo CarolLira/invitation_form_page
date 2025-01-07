@@ -6,10 +6,12 @@
   height: 728px;
   padding-top: 2rem;
   padding-inline: 2rem;
+
+  border-radius: 0.75rem;
 }
 
 aside {
-  padding-inline: 1.25rem;
+  padding: 1.25rem;
 
   img {
     width: 2.86rem;
@@ -18,8 +20,6 @@ aside {
   }
 
   h1 {
-    color: var(--pink);
-    font: var(--logo);
     margin-bottom: 0.25rem;
   }
 
