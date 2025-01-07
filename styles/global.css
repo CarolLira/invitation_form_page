@@ -77,15 +77,3 @@ label {
 input {
   color: var(--input-placeholder);
 }
-
-.body-md {
-  font: var(--body-md);
-}
-
-.body-sm {
-  font: var(--body-sm);
-}
-
-.body-xs {
-  font: var(--body-xs);
-}

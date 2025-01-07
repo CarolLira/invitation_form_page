@@ -1,0 +1,31 @@
+@import url(fields/input.css);
+
+input, textarea {
+  appearance: none;
+  border: none;
+  width: 100%;
+  padding: 0.8125rem 1rem;
+  background-color: var(--input-base);
+  outline: 1px solid var(--input-stroke);
+  border-radius: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+fieldset {
+  border: none;
+  display: grid;
+  gap: 1rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+label {
+  margin-bottom: 0.75rem;
+}
+
+.flex:has(.input-wrapper) {
+  gap: 1rem;
+}
+
