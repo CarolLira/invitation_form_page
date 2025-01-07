@@ -10,3 +10,70 @@ input[type="datetime-local"] {
     opacity: 0;
   }
 }
+
+.switch-radio {
+  position: relative;
+  flex: 1;
+  padding: 0.64rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+
+  &:has(:checked) {
+    background-color: #2D3136;
+
+    & span#building-logo {
+      background-image: url(../../assets/icons/building-2.svg);
+      width: 16px;
+      height: 16px;
+    }
+
+    & span#video-logo {
+      background-image: url(../../assets/icons/video-2.svg);
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  label {
+    margin-bottom: 0;
+  }
+
+  input {
+    all: unset;
+    inset: 0;
+    position: absolute;
+  }
+
+  span#building-logo {
+    background-image: url(../../assets/icons/building.svg);
+    width: 16px;
+    height: 16px;
+  }
+
+  span#video-logo {
+    background-image: url(../../assets/icons/video.svg);
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.switch-container {
+  display: flex;
+  width: 100%;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  margin-top: 0.75rem;
+
+  background-color: var(--input-base);
+  outline: 1px solid var(--input-stroke);
+  border: 1px solid var(--input-base);
+}
+
+textarea {
+  height: 8.5rem;
+  resize: none;
+}
