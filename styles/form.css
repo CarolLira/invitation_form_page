@@ -11,6 +11,20 @@ input, textarea {
   margin-top: 0.75rem;
 }
 
+input,
+select,
+textarea,
+input[type="datetime-local"] {
+  border: 1px solid var(--input-base);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+input[type="datetime-local"]:focus-within {
+  border-color: var(--brand-light);
+}
+
 fieldset {
   border: none;
   display: grid;
