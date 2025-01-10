@@ -1,6 +1,6 @@
 #aside-background {
   background-image: url(../assets/images/Background.png);
-  background-size: auto 728px;
+  background-size: 100% 728px;
   background-repeat: no-repeat;
 
   height: 728px;

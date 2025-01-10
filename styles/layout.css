@@ -1,6 +1,10 @@
 #app {
   display: grid;
-  grid-template-columns: 27.5rem auto;
+  grid-template-columns: 27.5rem 52.5rem;
 
   height: 100vh;
+  max-width: 80rem;
+  margin: auto;
+
+  overflow: hidden;
 }

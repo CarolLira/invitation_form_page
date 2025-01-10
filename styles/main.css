@@ -4,11 +4,16 @@ main {
 
   margin-block: 1.25rem;
   margin-right: 1.25rem;
+
+  padding-block: 5rem;
+  padding-inline: 8.125rem;
+
+  overflow: auto;
+  scrollbar-color: var(--input-base) var(--input-stroke);
 }
 
 #main-container {
-  padding-block: 5rem;
-  padding-inline: 8.125rem;
+  max-width: 35rem;
 
   h2 {
     margin-bottom: 2.5rem;
