@@ -1,0 +1,84 @@
+.colors-input {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 2.5rem);
+  gap: 0.64rem;
+
+  margin-top: 1rem;
+
+  .radio-container {
+    display: flex;
+    align-items: center;
+    background-color: var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid transparent;
+
+    &:hover {
+      cursor: pointer;
+      background-color: var(--shape-hover);
+    }
+
+    &:focus,
+    &:focus-within {
+      border-color: var(--brand-light);
+    }
+  }
+
+  input {
+    all: unset;
+
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+
+    &.bg-brand-light {
+      background-color: var(--brand-light);
+    }
+
+    &.bg-navy {
+      background-color: var(--navy);
+    }
+
+    &.bg-purple {
+      background-color: var(--purple);
+    }
+
+    &.bg-fuschia {
+      background-color: var(--fuschia);
+    }
+
+    &.bg-pink {
+      background-color: var(--pink);
+    }
+
+    &.bg-danger {
+      background-color: var(--danger);
+    }
+
+    &.bg-orange {
+      background-color: var(--orange);
+    }
+
+    &.bg-orange {
+      background-color: var(--orange);
+    }
+
+    &.bg-yellow {
+      background-color: var(--yellow);
+    }
+
+    &.bg-lime {
+      background-color: var(--lime);
+    }
+
+    &.bg-green {
+      background-color: var(--green);
+    }
+
+    &.bg-cyan {
+      background-color: var(--cyan);
+    }
+  }
+}
