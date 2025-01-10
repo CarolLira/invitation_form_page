@@ -1,4 +1,22 @@
-@import url(fields/input.css);
+@import url(fields/switch-radio-input.css);
+
+fieldset {
+  border: none;
+  display: grid;
+  gap: 1rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.flex:has(.input-wrapper) {
+  gap: 1rem;
+}
+
+label {
+  margin-bottom: 0.75rem;
+}
 
 input, textarea {
   appearance: none;
@@ -25,21 +43,20 @@ input[type="datetime-local"]:focus-within {
   border-color: var(--brand-light);
 }
 
-fieldset {
-  border: none;
-  display: grid;
-  gap: 1rem;
+input[type="datetime-local"] {
+  text-transform: uppercase;
+  position: relative;
 
-  &:not(:last-child) {
-    margin-bottom: 3rem;
+  &::-webkit-calendar-picker-indicator {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
   }
 }
 
-label {
-  margin-bottom: 0.75rem;
+textarea {
+  height: 8.5rem;
+  resize: none;
 }
-
-.flex:has(.input-wrapper) {
-  gap: 1rem;
-}
-
