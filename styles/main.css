@@ -1,4 +1,6 @@
 main {
+  height: calc(100vh - 2.5rem);
+
   background-color: var(--shape-body);
   border-radius: 0.75rem;
 
