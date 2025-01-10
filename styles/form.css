@@ -33,7 +33,7 @@ input,
 select,
 textarea,
 input[type="datetime-local"] {
-  border: 1px solid var(--input-base);
+  border: 1px solid transparent;
 }
 
 input:focus,
