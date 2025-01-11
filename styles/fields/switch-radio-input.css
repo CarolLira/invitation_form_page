@@ -30,10 +30,16 @@
     all: unset;
     inset: 0;
     position: absolute;
+    color: var(--text-body);
+    font: var(--body-sm);
   }
 
   &:has(:checked) {
     background-color: #2D3136;
+
+    & input {
+      color: var(--text-heading);
+    }
 
     & span#building-logo {
       background-image: url(../../assets/icons/building-2.svg);
