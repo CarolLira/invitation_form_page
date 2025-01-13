@@ -266,7 +266,6 @@
                 <label class="body-sm">Tema do evento</label>
 
                 <div class="theme-input">
-
                   <div class="radio-container">
                     <img src="assets/images/birthday.png" alt="" />
                     <label for="birthday" class="body-sm">Aniversário</label>
@@ -324,7 +323,9 @@
 
                   <div class="radio-container">
                     <img src="assets/images/bridal-shower.png" alt="" />
-                    <label for="bridal-shower" class="body-sm">Chá de panela</label>
+                    <label for="bridal-shower" class="body-sm"
+                      >Chá de panela</label
+                    >
                     <input
                       id="bridal-shower"
                       name="theme"
@@ -391,14 +392,30 @@
                   <div class="radio-container">
                     <img src="assets/images/other.png" alt="" />
                     <label for="other" class="body-sm">Outro</label>
-                    <input
-                      id="other"
-                      name="theme"
-                      type="radio"
-                      value="other"
-                    />
+                    <input id="other" name="theme" type="radio" value="other" />
                   </div>
+                </div>
+              </div>
 
+              <div class="flex">
+                <div class="input-wrapper flex-1">
+                  <label for="dark-light" class="body-sm">Estilo</label>
+                  <input id="dark-light" name="dark-light" type="checkbox" />
+                </div>
+
+                <div class="drop-wrapper flex-1">
+                  <label for="cover-photo" class="body-sm">Foto de capa</label>
+
+                  <div class="drop-area">
+                    <div class="drop-button">
+                      <img src="assets/icons/upload.svg" alt="" />
+                      <label for="cover-photo" class="body-sm">
+                        Selecionar
+                      </label>
+                      <input id="cover-photo" name="cover-photo" type="file" />
+                    </div>
+                    <p class="body-md">Nenhum arquivo selecionado</p>
+                  </div>
                 </div>
               </div>
             </fieldset>
