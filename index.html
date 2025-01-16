@@ -400,7 +400,19 @@
               <div class="flex">
                 <div class="input-wrapper flex-1">
                   <label for="dark-light" class="body-sm">Estilo</label>
-                  <input id="dark-light" name="dark-light" type="checkbox" />
+
+                  <div class="switch-checkbox">
+                    <label for="dark-light">
+                      <input
+                        id="dark-light"
+                        name="dark-light"
+                        type="checkbox"
+                      />
+                      <span class="slider"></span>
+                    </label>
+                    <label class="dark-label body-sm">Escuro</label>
+                    <label class="light-label body-sm">Claro</label>
+                  </div>
                 </div>
 
                 <div class="drop-wrapper flex-1">

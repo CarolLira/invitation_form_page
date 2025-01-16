@@ -1,6 +1,7 @@
 @import url(fields/switch-radio-input.css);
 @import url(fields/colors-input.css);
 @import url(fields/theme-input.css);
+@import url(fields/switch-checkbox.css);
 
 fieldset {
   border: none;
