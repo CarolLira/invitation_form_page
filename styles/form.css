@@ -2,6 +2,7 @@
 @import url(fields/colors-input.css);
 @import url(fields/theme-input.css);
 @import url(fields/switch-checkbox.css);
+@import url(fields/drop-file-button.css);
 
 fieldset {
   border: none;
@@ -11,6 +12,10 @@ fieldset {
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
+}
+
+fieldset#customization {
+  gap: 1.75rem;
 }
 
 .flex:has(.input-wrapper) {
