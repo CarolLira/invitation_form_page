@@ -3,6 +3,7 @@
 @import url(fields/theme-input.css);
 @import url(fields/switch-checkbox.css);
 @import url(fields/drop-file-button.css);
+@import url(fields/checkbox-input.css);
 
 fieldset {
   border: none;
@@ -82,4 +83,34 @@ input {
 textarea {
   height: 8.5rem;
   resize: none;
+}
+
+#generate-invite {
+  .divider {
+    border-top: 1px solid var(--input-stroke);
+    margin-bottom: 2.5rem;
+  }
+
+  .action-wrapper {
+    margin-top: 3rem;
+    margin-left: auto;
+  }
+
+  button {
+    appearance: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--brand-dark);
+    padding: 0.875rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font: var(--body-md);
+    color: var(--text-heading);
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--brand-mid);
+    }
+  }
 }
